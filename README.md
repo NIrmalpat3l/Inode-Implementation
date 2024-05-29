@@ -41,11 +41,22 @@ The main function provides a menu-driven interface for interacting with the inod
     6.Exit the program.
 
 ## **ScreenShot:**
-![SS-1](https://github.com/NIrmalpat3l/Inode-Implementation/blob/main/Screenshot%202024-05-29%20180024.png)
+**1.**
+![SS-1](/Screenshot%202024-05-29%20180024.png)
+***
+**2.**
 ![SS-2](/Screenshot%202024-05-29%20180041.png)
+***
+**3.**
 ![SS-3](/Screenshot%202024-05-29%20180057.png)
+***
+**4.**
 ![SS-4](/Screenshot%202024-05-29%20180111.png)
+***
+**5.**
 ![SS-5](/Screenshot%202024-05-29%20180124.png)
+***
+**6.**
 ![SS-6](/Screenshot%202024-05-29%20180134.png)
 
 ## **Key Points:**
