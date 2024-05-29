@@ -40,7 +40,15 @@ The main function provides a menu-driven interface for interacting with the inod
 
     6.Exit the program.
 
-## Key Points:
+## **ScreenShot:**
+![SS-1](https://github.com/NIrmalpat3l/Inode-Implementation/blob/main/Screenshot%202024-05-29%20180024.png)
+![SS-2](/Screenshot%202024-05-29%20180041.png)
+![SS-3](/Screenshot%202024-05-29%20180057.png)
+![SS-4](/Screenshot%202024-05-29%20180111.png)
+![SS-5](/Screenshot%202024-05-29%20180124.png)
+![SS-6](/Screenshot%202024-05-29%20180134.png)
+
+## **Key Points:**
 
 The code utilizes MAX_sizeOfDataBlock to define the maximum size of a data block.The curr_Datablock variable keeps track of the current data block being used.The flag variable indicates if the file size exceeds the data block size, triggering a new data block allocation.Error handling is included for invalid choices, duplicate inode IDs, and attempting to find/update/delete non-existent inodes.
 
