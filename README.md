@@ -4,7 +4,7 @@ This document describes the implementation of an inode system using C++ STL (Sta
 
 The code utilizes maps and linked lists to store and manage inodes.
 
-> **Data Structures:**
+## **Data Structures:**
 
 - Inode: A structure representing an inode. It contains fields for:
 - dataBlockID: The data block ID where the file data is stored.
@@ -17,7 +17,7 @@ The code utilizes maps and linked lists to store and manage inodes.
 - map<int, Inode*> dataBlockInfo: A map that stores a mapping between data block IDs and a pointer to the head of the linked list containing inodes within that block.
 - map<int, int> is_repeated: A map to keep track of duplicate inode IDs (for ensuring unique IDs).
 
-> **Class: LinkedList**
+## **Class: LinkedList**
 
 This class manages the linked list of inodes within a data block. It provides methods for:
 
@@ -26,7 +26,7 @@ This class manages the linked list of inodes within a data block. It provides me
 - updatePermissions: Updates the permissions for an inode with a specific ID.
 - deleteInode: Deletes an inode with a specific ID.
 
-> **Main Function:**
+## **Main Function:**
 
 The main function provides a menu-driven interface for interacting with the inode system. Users can:
 
@@ -40,7 +40,7 @@ The main function provides a menu-driven interface for interacting with the inod
 
     6.Exit the program.
 
-> Key Points:
+## Key Points:
 
 The code utilizes MAX_sizeOfDataBlock to define the maximum size of a data block.The curr_Datablock variable keeps track of the current data block being used.The flag variable indicates if the file size exceeds the data block size, triggering a new data block allocation.Error handling is included for invalid choices, duplicate inode IDs, and attempting to find/update/delete non-existent inodes.
 
